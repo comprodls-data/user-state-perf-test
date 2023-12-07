@@ -29,7 +29,7 @@
           <collectionProp name="Arguments.arguments"/>
         </Arguments>
         <hashTree/>
-        <ThroughputController guiclass="ThroughputControllerGui" testclass="ThroughputController" testname="Scenario 1" enabled="true">
+        <ThroughputController guiclass="ThroughputControllerGui" testclass="ThroughputController" testname="Normal Class - Scenario 1 - Student partially attempts scorable activity" enabled="true">
           <intProp name="ThroughputController.style">1</intProp>
           <boolProp name="ThroughputController.perThread">false</boolProp>
           <intProp name="ThroughputController.maxThroughput">1</intProp>
@@ -45,11 +45,271 @@
           </IncludeController>
           <hashTree/>
           <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="waitFor" enabled="true">
-            <stringProp name="ConstantTimer.delay">5</stringProp>
+            <stringProp name="ConstantTimer.delay">5000</stringProp>
           </ConstantTimer>
           <hashTree/>
-          <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="Student Perform the activty" enabled="true">
+          <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="Get_particular_document_of_a_folder" enabled="true">
+            <stringProp name="IncludeController.includepath">Get_particular_document_of_a_folder.jmx</stringProp>
+          </IncludeController>
+          <hashTree/>
+        </hashTree>
+        <ThroughputController guiclass="ThroughputControllerGui" testclass="ThroughputController" testname="Normal Class - Scenario 2 - Student partially attempts Pskill activity" enabled="true">
+          <intProp name="ThroughputController.style">1</intProp>
+          <boolProp name="ThroughputController.perThread">false</boolProp>
+          <intProp name="ThroughputController.maxThroughput">1</intProp>
+          <FloatProperty>
+            <name>ThroughputController.percentThroughput</name>
+            <value>100.0</value>
+            <savedValue>0.0</savedValue>
+          </FloatProperty>
+        </ThroughputController>
+        <hashTree>
+          <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="Create_documents_of_folders_for_learner_item_level" enabled="true">
             <stringProp name="IncludeController.includepath">Create_documents_of_folders_for_learner_item_level.jmx</stringProp>
+          </IncludeController>
+          <hashTree/>
+          <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="Get_particular_document_of_a_folder" enabled="true">
+            <stringProp name="IncludeController.includepath">Get_particular_document_of_a_folder.jmx</stringProp>
+          </IncludeController>
+          <hashTree/>
+          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="waitFor" enabled="true">
+            <stringProp name="ConstantTimer.delay">5000</stringProp>
+          </ConstantTimer>
+          <hashTree/>
+          <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="Create_documents_of_folders_for_learner_item_level" enabled="true">
+            <stringProp name="IncludeController.includepath">Create_documents_of_folders_for_learner_item_level.jmx</stringProp>
+          </IncludeController>
+          <hashTree/>
+          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="waitFor" enabled="true">
+            <stringProp name="ConstantTimer.delay">5000</stringProp>
+          </ConstantTimer>
+          <hashTree/>
+          <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="Get_particular_document_of_a_folder" enabled="true">
+            <stringProp name="IncludeController.includepath">Get_particular_document_of_a_folder.jmx</stringProp>
+          </IncludeController>
+          <hashTree/>
+          <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="Delete_documents_of_folders" enabled="true">
+            <stringProp name="IncludeController.includepath">Delete_documents_of_folders.jmx</stringProp>
+          </IncludeController>
+          <hashTree/>
+        </hashTree>
+        <ThroughputController guiclass="ThroughputControllerGui" testclass="ThroughputController" testname="CBP Class - Scenario 3 - Student partially attempts scorable activity" enabled="true">
+          <intProp name="ThroughputController.style">1</intProp>
+          <boolProp name="ThroughputController.perThread">false</boolProp>
+          <intProp name="ThroughputController.maxThroughput">1</intProp>
+          <FloatProperty>
+            <name>ThroughputController.percentThroughput</name>
+            <value>100.0</value>
+            <savedValue>0.0</savedValue>
+          </FloatProperty>
+        </ThroughputController>
+        <hashTree>
+          <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="Create_documents_of_folders_for_learner_item_level" enabled="true">
+            <stringProp name="IncludeController.includepath">Create_documents_of_folders_for_learner_item_level.jmx</stringProp>
+          </IncludeController>
+          <hashTree/>
+          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="waitFor" enabled="true">
+            <stringProp name="ConstantTimer.delay">5000</stringProp>
+          </ConstantTimer>
+          <hashTree/>
+          <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="Get_particular_document_of_a_folder" enabled="true">
+            <stringProp name="IncludeController.includepath">Get_particular_document_of_a_folder.jmx</stringProp>
+          </IncludeController>
+          <hashTree/>
+        </hashTree>
+        <ThroughputController guiclass="ThroughputControllerGui" testclass="ThroughputController" testname="CBP Class - Scenario 4 - Student partially attempts Pskill activity" enabled="true">
+          <intProp name="ThroughputController.style">1</intProp>
+          <boolProp name="ThroughputController.perThread">false</boolProp>
+          <intProp name="ThroughputController.maxThroughput">1</intProp>
+          <FloatProperty>
+            <name>ThroughputController.percentThroughput</name>
+            <value>100.0</value>
+            <savedValue>0.0</savedValue>
+          </FloatProperty>
+        </ThroughputController>
+        <hashTree>
+          <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="Create_documents_of_folders_for_learner_item_level" enabled="true">
+            <stringProp name="IncludeController.includepath">Create_documents_of_folders_for_learner_item_level.jmx</stringProp>
+          </IncludeController>
+          <hashTree/>
+          <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="Get_particular_document_of_a_folder" enabled="true">
+            <stringProp name="IncludeController.includepath">Get_particular_document_of_a_folder.jmx</stringProp>
+          </IncludeController>
+          <hashTree/>
+          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="waitFor" enabled="true">
+            <stringProp name="ConstantTimer.delay">5000</stringProp>
+          </ConstantTimer>
+          <hashTree/>
+          <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="Create_documents_of_folders_for_learner_item_level" enabled="true">
+            <stringProp name="IncludeController.includepath">Create_documents_of_folders_for_learner_item_level.jmx</stringProp>
+          </IncludeController>
+          <hashTree/>
+          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="waitFor" enabled="true">
+            <stringProp name="ConstantTimer.delay">5000</stringProp>
+          </ConstantTimer>
+          <hashTree/>
+          <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="Get_particular_document_of_a_folder" enabled="true">
+            <stringProp name="IncludeController.includepath">Get_particular_document_of_a_folder.jmx</stringProp>
+          </IncludeController>
+          <hashTree/>
+          <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="Delete_documents_of_folders" enabled="true">
+            <stringProp name="IncludeController.includepath">Delete_documents_of_folders.jmx</stringProp>
+          </IncludeController>
+          <hashTree/>
+        </hashTree>
+        <ThroughputController guiclass="ThroughputControllerGui" testclass="ThroughputController" testname="Normal Class - Scenario 5 - Teacher marks Pskill activity" enabled="true">
+          <intProp name="ThroughputController.style">1</intProp>
+          <boolProp name="ThroughputController.perThread">false</boolProp>
+          <intProp name="ThroughputController.maxThroughput">1</intProp>
+          <FloatProperty>
+            <name>ThroughputController.percentThroughput</name>
+            <value>100.0</value>
+            <savedValue>0.0</savedValue>
+          </FloatProperty>
+        </ThroughputController>
+        <hashTree>
+          <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="Create_documents_of_folders_for_learner_item_level" enabled="true">
+            <stringProp name="IncludeController.includepath">Create_documents_of_folders_for_learner_item_level.jmx</stringProp>
+          </IncludeController>
+          <hashTree/>
+          <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="Get_particular_document_of_a_folder" enabled="true">
+            <stringProp name="IncludeController.includepath">Get_particular_document_of_a_folder.jmx</stringProp>
+          </IncludeController>
+          <hashTree/>
+          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="waitFor" enabled="true">
+            <stringProp name="ConstantTimer.delay">5000</stringProp>
+          </ConstantTimer>
+          <hashTree/>
+          <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="Update_documents_of_folders_for_teacher_item_level" enabled="true">
+            <stringProp name="IncludeController.includepath">Update_documents_of_folders_for_teacher_item_level.jmx</stringProp>
+          </IncludeController>
+          <hashTree/>
+          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="waitFor" enabled="true">
+            <stringProp name="ConstantTimer.delay">5000</stringProp>
+          </ConstantTimer>
+          <hashTree/>
+          <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="Get_particular_document_of_a_folder" enabled="true">
+            <stringProp name="IncludeController.includepath">Get_particular_document_of_a_folder.jmx</stringProp>
+          </IncludeController>
+          <hashTree/>
+          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="waitFor" enabled="true">
+            <stringProp name="ConstantTimer.delay">5000</stringProp>
+          </ConstantTimer>
+          <hashTree/>
+          <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="Update_documents_of_folders_for_teacher_item_level" enabled="true">
+            <stringProp name="IncludeController.includepath">Update_documents_of_folders_for_teacher_item_level.jmx</stringProp>
+          </IncludeController>
+          <hashTree/>
+          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="waitFor" enabled="true">
+            <stringProp name="ConstantTimer.delay">5000</stringProp>
+          </ConstantTimer>
+          <hashTree/>
+          <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="Delete_documents_of_folders" enabled="true">
+            <stringProp name="IncludeController.includepath">Delete_documents_of_folders.jmx</stringProp>
+          </IncludeController>
+          <hashTree/>
+          <ThroughputController guiclass="ThroughputControllerGui" testclass="ThroughputController" testname="Normal Class - Scenario 5 - Teacher marks Pskill activity" enabled="true">
+            <intProp name="ThroughputController.style">1</intProp>
+            <boolProp name="ThroughputController.perThread">false</boolProp>
+            <intProp name="ThroughputController.maxThroughput">1</intProp>
+            <FloatProperty>
+              <name>ThroughputController.percentThroughput</name>
+              <value>100.0</value>
+              <savedValue>0.0</savedValue>
+            </FloatProperty>
+          </ThroughputController>
+          <hashTree>
+            <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="Create_documents_of_folders_for_learner_item_level" enabled="true">
+              <stringProp name="IncludeController.includepath">Create_documents_of_folders_for_learner_item_level.jmx</stringProp>
+            </IncludeController>
+            <hashTree/>
+            <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="Get_particular_document_of_a_folder" enabled="true">
+              <stringProp name="IncludeController.includepath">Get_particular_document_of_a_folder.jmx</stringProp>
+            </IncludeController>
+            <hashTree/>
+            <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="waitFor" enabled="true">
+              <stringProp name="ConstantTimer.delay">5000</stringProp>
+            </ConstantTimer>
+            <hashTree/>
+            <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="Update_documents_of_folders_for_teacher_item_level" enabled="true">
+              <stringProp name="IncludeController.includepath">Update_documents_of_folders_for_teacher_item_level.jmx</stringProp>
+            </IncludeController>
+            <hashTree/>
+            <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="waitFor" enabled="true">
+              <stringProp name="ConstantTimer.delay">5000</stringProp>
+            </ConstantTimer>
+            <hashTree/>
+            <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="Get_particular_document_of_a_folder" enabled="true">
+              <stringProp name="IncludeController.includepath">Get_particular_document_of_a_folder.jmx</stringProp>
+            </IncludeController>
+            <hashTree/>
+            <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="waitFor" enabled="true">
+              <stringProp name="ConstantTimer.delay">5000</stringProp>
+            </ConstantTimer>
+            <hashTree/>
+            <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="Update_documents_of_folders_for_teacher_item_level" enabled="true">
+              <stringProp name="IncludeController.includepath">Update_documents_of_folders_for_teacher_item_level.jmx</stringProp>
+            </IncludeController>
+            <hashTree/>
+            <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="waitFor" enabled="true">
+              <stringProp name="ConstantTimer.delay">5000</stringProp>
+            </ConstantTimer>
+            <hashTree/>
+            <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="Delete_documents_of_folders" enabled="true">
+              <stringProp name="IncludeController.includepath">Delete_documents_of_folders.jmx</stringProp>
+            </IncludeController>
+            <hashTree/>
+          </hashTree>
+        </hashTree>
+        <ThroughputController guiclass="ThroughputControllerGui" testclass="ThroughputController" testname="CBP Class - Scenario 6 - Teacher marks Pskill activity" enabled="true">
+          <intProp name="ThroughputController.style">1</intProp>
+          <boolProp name="ThroughputController.perThread">false</boolProp>
+          <intProp name="ThroughputController.maxThroughput">1</intProp>
+          <FloatProperty>
+            <name>ThroughputController.percentThroughput</name>
+            <value>100.0</value>
+            <savedValue>0.0</savedValue>
+          </FloatProperty>
+        </ThroughputController>
+        <hashTree>
+          <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="Create_documents_of_folders_for_learner_item_level" enabled="true">
+            <stringProp name="IncludeController.includepath">Create_documents_of_folders_for_learner_item_level.jmx</stringProp>
+          </IncludeController>
+          <hashTree/>
+          <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="Get_particular_document_of_a_folder" enabled="true">
+            <stringProp name="IncludeController.includepath">Get_particular_document_of_a_folder.jmx</stringProp>
+          </IncludeController>
+          <hashTree/>
+          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="waitFor" enabled="true">
+            <stringProp name="ConstantTimer.delay">5000</stringProp>
+          </ConstantTimer>
+          <hashTree/>
+          <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="Update_documents_of_folders_for_teacher_item_level" enabled="true">
+            <stringProp name="IncludeController.includepath">Update_documents_of_folders_for_teacher_item_level.jmx</stringProp>
+          </IncludeController>
+          <hashTree/>
+          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="waitFor" enabled="true">
+            <stringProp name="ConstantTimer.delay">5000</stringProp>
+          </ConstantTimer>
+          <hashTree/>
+          <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="Get_particular_document_of_a_folder" enabled="true">
+            <stringProp name="IncludeController.includepath">Get_particular_document_of_a_folder.jmx</stringProp>
+          </IncludeController>
+          <hashTree/>
+          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="waitFor" enabled="true">
+            <stringProp name="ConstantTimer.delay">5000</stringProp>
+          </ConstantTimer>
+          <hashTree/>
+          <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="Update_documents_of_folders_for_teacher_item_level" enabled="true">
+            <stringProp name="IncludeController.includepath">Update_documents_of_folders_for_teacher_item_level.jmx</stringProp>
+          </IncludeController>
+          <hashTree/>
+          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="waitFor" enabled="true">
+            <stringProp name="ConstantTimer.delay">5000</stringProp>
+          </ConstantTimer>
+          <hashTree/>
+          <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="Delete_documents_of_folders" enabled="true">
+            <stringProp name="IncludeController.includepath">Delete_documents_of_folders.jmx</stringProp>
           </IncludeController>
           <hashTree/>
         </hashTree>
